@@ -6,9 +6,9 @@ const ToDoItem = ({ task, toggleComplete, deleteTask }) => {
       <span className="task-text">{task.text}</span>
       <div className="task-buttons">
       <button className="btn btn-success" onClick={() => toggleComplete(task.id)}>
-        {task.completed ? '🔄' : '✅'}
+        {task.completed ? 'Undo' : 'Completed'}
       </button>
-      <button className="btn btn-danger" onClick={() => deleteTask(task.id)}>❎</button>
+      <button className="btn btn-danger" onClick={() => deleteTask(task.id)}>Delete</button>
       </div>
     </li>
   );

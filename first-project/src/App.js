@@ -25,7 +25,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>TODO-LIST</h1>
+      <h1>TODOLIST</h1>
       <AddToDo addTask={addTask} />
       <ToDoList tasks={tasks} toggleComplete={toggleComplete} deleteTask={deleteTask} />
     </div>
