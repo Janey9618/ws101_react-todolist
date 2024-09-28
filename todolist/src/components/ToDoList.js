@@ -1,5 +1,5 @@
 import React from 'react';
-import ToDoItem from './ToDoItem';
+import ToDoItem from '../../../todolist/src/components/ToDoItem';
 
 const ToDoList = ({ tasks, toggleComplete, deleteTask }) => {
   return (
